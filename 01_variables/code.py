@@ -9,4 +9,4 @@ print(result)  # 7.992
 name = "Rolf"
 name = "Rolf"
 print(name)  # Rolf
-print(name * 3)  # RolfRolf
+print(name * 2)  # RolfRolf
