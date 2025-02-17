@@ -1,7 +1,7 @@
 # -- Difference between two sets --
 
-friends = {"Bob", "Rolf", "Anne"}
-abroad = {"Bob", "Anne"}
+friends = {"Bob", "Rolf", "Anne","Kob"}
+abroad = {"Bob", "Anne","Phing"}
 
 # local_friends = ...
 # If there are 3 friends, and 2 are abroad, that means that 1 friend is local.
@@ -10,7 +10,7 @@ abroad = {"Bob", "Anne"}
 local = friends.difference(abroad)
 print(local)
 
-print(abroad.difference(friends))  # This returns an empty set
+print(abroad.difference(friends))  # This returns {Phing}
 
 # -- Union of two sets --
 
